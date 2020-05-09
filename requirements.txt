@@ -3,7 +3,7 @@ backports-abc==0.5
 certifi==2019.11.28
 cffi==1.13.2
 cryptography==2.8
-Django==1.11.22
+Django==1.11.28
 enum34==1.1.6
 future==0.18.2
 futures==3.3.0
