@@ -1,4 +1,4 @@
-FROM arm32v7/python
+FROM debian:stretch-slim
 MAINTAINER Alejandro Sánchez
 
 WORKDIR /app
@@ -7,7 +7,6 @@ ADD * ./
 ADD . /app
 
 RUN pip install python-telegram-bot --upgrade
-
 
 CMD ["python3","botPiControlBasic.py"]
 
