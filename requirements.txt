@@ -2,7 +2,7 @@ asn1crypto==0.24.0
 backports-abc==0.5
 certifi==2019.11.28
 cffi==1.13.2
-cryptography==2.8
+cryptography==3.2
 django>=1.11.28
 enum34==1.1.6
 future==0.18.2
